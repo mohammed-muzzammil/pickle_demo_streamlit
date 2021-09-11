@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-Pkl_Filename = "Model.pkl"
+Pkl_Filename = "https://github.com/mohammed-muzzammil/pickle_demo_streamlit/blob/main/Model.pkl"
 
 with open(Pkl_Filename, 'rb') as file: 
     Regressor_model = pickle.load(file)

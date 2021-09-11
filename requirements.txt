@@ -1,4 +1,2 @@
 streamlit
-pandas
-cx_Oracle
-base64
+pickle

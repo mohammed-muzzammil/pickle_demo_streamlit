@@ -1,2 +1,2 @@
 streamlit
-pickle
+pickleshare == 0.7.5

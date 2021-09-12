@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 
+
+# "/app/{repository name}/ {file.extension}"
 Pkl_Filename = "/app/pickle_demo_streamlit/Model.pkl"
 
 with open(Pkl_Filename, 'rb') as file: 
